@@ -4,7 +4,7 @@ body {
 .navbar {
   box-shadow: 2px 2px 2px #3292a6;
   opacity: 0.9;
-  background: #fff; }
+  background: white; }
   .navbar .nav-item {
     font-size: 1.4rem;
     padding-right: 1.4rem; }
@@ -23,6 +23,14 @@ body {
 
 .info-header {
   border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: #3292a6;
+  color: white; }
+#authors .fab {
+  color: white; }
 
 @media (max-width: 768px) {
   #showcase {
