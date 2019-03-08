@@ -29,8 +29,10 @@ body {
 #authors .card:hover {
   background: #3292a6;
   color: white; }
-#authors .fab {
-  color: white; }
+  #authors .card:hover .text-muted {
+    color: white !important; }
+  #authors .card:hover .fab {
+    color: white; }
 
 @media (max-width: 768px) {
   #showcase {
